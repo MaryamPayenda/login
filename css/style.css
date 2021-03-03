@@ -6,41 +6,64 @@
 .wrapper {
   display: grid;
   border: 1px solid rgb(0, 0, 0, 0.2);
-  grid-template-columns: 48% 6% 48%;
+  grid-template-columns: 49.4% 0.1% 49.4%;
   grid-template-rows: 1fr;
   width: 50rem;
-  height: 30rem;
+  height: 25rem;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: 12rem;
+  left: 20rem;
+
+  /* margin-right: -50%; */
+  /* transform: translate(-50%, -50%); */
 }
-/*  */
+
 .wrapper > div {
   background-color: #eee;
   padding: 4em;
 }
 
 .wrapper > div:nth-child(odd) {
-  background-color: #ddd;
-}
-button {
-  background-color: blue;
+  background-color: white;
 }
 
-.button-img {
-  text-align: center;
-  border-radius: 2px;
-  padding: 2%;
-  width: 3px;
-  /* margin-top: 3rem;
-  border: none;
+.grid1 {
+  height: 40px;
+  padding: 8px;
+  margin: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
   color: white;
-  font-weight: bold; */
+  width: 15rem;
+}
+.button-fb {
+  background-color: rgb(44, 44, 114);
+  padding: 10px;
+  margin: 1rem;
 }
 
-td {
-  width: 10px;
-  height: auto;
+.button-twitter {
+  background-color: rgb(106, 147, 185);
+  padding: 10px;
+  margin: 1rem;
+}
+.button-google {
+  background-color: orange;
+  padding: 10px;
+  margin: 1rem;
+}
+
+.grid2 {
+  width: 2px;
+  height: 200px;
+  background: gray;
+  margin: 20px auto 0 auto;
+}
+input {
+  padding: 10px;
+}
+input:placeholder-shown {
+  border: none;
+  border-bottom: 2px rgb(194, 193, 193) solid;
+  font-size: 1rem;
 }
