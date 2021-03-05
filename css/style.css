@@ -21,7 +21,7 @@
 
 .wrapper > div {
   background-color: #eee;
-  padding: 4em;
+  padding: 1.2em;
 }
 
 .wrapper > div:nth-child(odd) {
@@ -147,7 +147,6 @@ h3 {
   /* justify-content: end; */
 }
 .grid5 {
-  text-align: left;
 }
 
 /* short vertical line */
