@@ -25,23 +25,19 @@
   font-size: 18px;
   color: white;
 }
-
-.button-fb {
-  background-color: rgb(44, 44, 114);
+.social-media {
   padding: 20px;
   margin: 1rem;
+}
+.button-fb {
+  background-color: rgb(44, 44, 114);
 }
 
 .button-twitter {
   background-color: rgb(106, 147, 185);
-  padding: 20px;
-  margin: 1rem;
 }
 .button-google {
   background-color: orange;
-  padding: 20px;
-
-  margin: 1rem;
 }
 .line {
   display: inline;
@@ -80,6 +76,7 @@
 .grid3 {
   /* border: 2px green solid; */
   display: inline;
+  margin: auto;
 }
 
 .form-design {
@@ -135,11 +132,12 @@ input:placeholder-shown {
   width: 1px;
 }
 .grid4 {
+  background-color: rgb(197, 235, 241);
   /* border: 1px red dotted; */
   display: grid;
   justify-content: right;
   align-items: center;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 a {
   text-decoration: none;
@@ -149,9 +147,11 @@ a {
 }
 
 .grid6 {
+  background-color: rgb(197, 235, 241);
+
   /* border: 1px red dotted; */
   display: grid;
   justify-content: left;
   align-items: center;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
