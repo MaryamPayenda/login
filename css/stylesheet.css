@@ -20,9 +20,7 @@
   display: grid;
   justify-content: space-between;
   align-items: center;
-  border: 1px lightgray solid;
-  /* height: 40px; */
-  /* padding: 8px; */
+  /* border: 1px lightgray solid; */
   margin: 3rem;
   font-family: Arial, Helvetica, sans-serif;
   /* gap: 1rem; */
@@ -41,44 +39,66 @@
   padding: 20px;
   margin: 1rem;
 }
-.line {
-  display: inline;
-  border: 1px gray solid;
-  margin: 4px;
-  margin-right: 5px;
-  height: 50px;
-}
 .button-google {
   background-color: orange;
   padding: 20px;
 
   margin: 1rem;
 }
+.line {
+  display: inline;
+  border: 1px rgba(207, 204, 204, 0.5) solid;
+  margin: 4px;
+  margin-right: 5px;
+  height: 50px;
+}
 
 .grid2 {
-  border: 1px lightgray solid;
+  /* border: 1px lightgray solid; */
   height: 10rem;
   margin: 4rem auto 10px auto;
 }
+/* grid 2 vertical line */
+
+.v-Line {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 30vh;
+}
+.vLineBottom {
+  /* position: absolute; */
+  left: 70%;
+  /* transform: translate(-50%); */
+  border: 2px solid #ddd;
+  height: 10vh;
+}
+.v-LineText {
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50% 50%;
+  padding: 1.1vh 0.7vw;
+}
+
+/* grid 3 h3 with form */
+
+.grid3 {
+  /* border: 2px green solid; */
+  display: inline;
+}
 
 .form-design {
-  margin: 10px;
+  margin: 15px;
 }
 
 h3 {
   text-align: center;
   font-size: 2rem;
   margin-top: 20px;
-
-  /* height: 20px; */
-  /* margin-bottom: 2px; */
-}
-.grid3 {
-  border: 2px green solid;
-  display: inline;
-
-  /* justify-content: center; */
-  /* border: 4px red solid; */
 }
 
 input {
@@ -100,7 +120,7 @@ input:placeholder-shown {
   border: none;
   border-radius: 2px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
-  margin-left: 2.2rem;
+  margin-left: 1rem;
 }
