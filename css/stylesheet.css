@@ -7,11 +7,10 @@
 .wrapper {
   display: grid;
   border: 1px lightgray solid;
-  height: 50vh;
+  height: 45vh;
   grid-template-columns: 49.4% 0.1% 49.4%;
   width: 50vw;
   position: absolute;
-  /* grid-template-rows: repeat(10rem, 1rem, 10rem); */
   top: 12rem;
   left: 35rem;
 }
@@ -20,7 +19,6 @@
   display: grid;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px lightgray solid; */
   margin: 3rem;
   font-family: Arial, Helvetica, sans-serif;
   /* gap: 1rem; */
@@ -54,25 +52,18 @@
 }
 
 .grid2 {
-  /* border: 1px lightgray solid; */
   height: 10rem;
   margin: 4rem auto 10px auto;
 }
+
 /* grid 2 vertical line */
 
 .v-Line {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   height: 30vh;
-}
-.vLineBottom {
-  /* position: absolute; */
-  left: 70%;
-  /* transform: translate(-50%); */
-  border: 2px solid #ddd;
-  height: 10vh;
 }
 .v-LineText {
   position: absolute;
@@ -120,7 +111,47 @@ input:placeholder-shown {
   border: none;
   border-radius: 2px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
+}
+
+.chkbox {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 70px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+/* footer */
+
+.short-line {
+  justify-content: center;
+  transform: translate(50%, 50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 1px;
+}
+.grid4 {
+  /* border: 1px red dotted; */
+  display: grid;
+  justify-content: right;
+  align-items: center;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: #58a4df;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.grid6 {
+  /* border: 1px red dotted; */
+  display: grid;
+  justify-content: left;
+  align-items: center;
+  margin-left: 10px;
 }
